@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    /* Pink Colors */
+    --dark-pink :#594347;
+    --light-pink-1: #F2BBC9;
+    --light-pink-2: #F294B6;
+    --light-pink-3: #F2A2C0;
+    --light-pink-4: #F2B3CA;
+}
+
+header {
+    flex: 1;
+}
+.about {
+    font-size: 48px;
+    text-align: center;
+}
+
+footer {
+    margin: 0 25vw 25px 25vw;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    min-width: 50vw;
+    font-size: 48px;
+    text-align: center;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--light-pink-1);
+    font-family: "Montserrat", sans-serif;
+    color: var(--dark-pink);
+    min-height: 100vh;
+    margin: 0;
+}
+
+h1 {
+    font-size: 2em;
+    font-weight: 700;
+}
+
+p {
+    font-size: 0.5em;
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+    font-size: 0.5em;
+    color: var(--dark-pink)
+}
